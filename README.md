@@ -16,3 +16,21 @@ vue 多项目模板
 
 - 认可此模板的话，可直接基于此模板开发
 - 可从此模板学习到，如何使用 nodejs、webpack、vue-cli 达到此效果的，然后定制适合自己的模板
+
+### 下载
+
+```
+git clone https://github.com/XiaoLin1995/vue-multiple-projects.git
+```
+
+### 使用
+
+projects 下建立各个项目，公用模块放在 src 目录下。
+
+
+通过设置 `pname` 参数指定项目（`pname` 值为项目的目录名），如下:
+```
+npm run serve --pname project1
+
+npm run build --pname project1
+```
