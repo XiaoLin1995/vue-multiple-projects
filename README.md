@@ -28,9 +28,9 @@ git clone https://github.com/XiaoLin1995/vue-multiple-projects.git
 projects 下建立各个项目，公用模块放在 src 目录下。
 
 
-通过设置 `pname` 参数指定项目（`pname` 值为项目的目录名），如下:
+如下运行命令（项目名添加到最后）:
 ```
-npm run serve --pname project1
+npm run serve project1
 
-npm run build --pname project1
+npm run build project1
 ```

@@ -9,8 +9,8 @@
     "email": "xiaolin.sky@gmail.com"
   },
   "scripts": {
-    "serve": "node ./build/service.js --action serve",
-    "build": "node ./build/service.js --action build",
+    "serve": "node ./build/service.js --action serve --pname",
+    "build": "node ./build/service.js --action build --pname",
     "lint": "node ./build/service.js --action lint"
   },
   "dependencies": {
